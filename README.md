@@ -23,6 +23,7 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 # quasar-todo-app
 
 ### ADD YOUR FIREBASE CONFIG OBJECT to the firebase.js under /boot folder 
+```javascript
 var firebaseConfig = {
   apiKey: "YOURAPIKEY",
   authDomain: "YOURAUTHDOMAIN",
@@ -32,3 +33,4 @@ var firebaseConfig = {
   messagingSenderId: "YOURMESSAGINGSENDERID",
   appId: "YOURAPPID"
 }
+```
