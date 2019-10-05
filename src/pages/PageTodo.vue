@@ -10,7 +10,7 @@
                         && !Object.keys(tasksCompleted).length">
           No search results.
         </p>
-        <q-scroll-area class="q-scroll-area-tasks">
+        <q-scroll-area class="q-scroll-area-tasks col">
           <no-tasks 
             v-if="!search && !Object.keys(tasksTodo).length" />
           
