@@ -1,0 +1,38 @@
+// app global css in SCSS form
+.border-gray {
+  border: 1px solid gray;
+}
+
+.error {
+  color: red;
+  background-color: pink;
+}
+
+@media screen and (min-width: 768px) {
+  .q-footer{
+    display: none;
+  } 
+}
+@media screen and (min-width: 768px) {
+  .q-footer{
+    display: none;
+  }
+  .q-page-container {
+    padding-bottom: 0px !important;
+  }  
+  .q-page {
+    min-height: calc(100vh - 50px) !important;
+  }
+}
+
+.q-drawer {
+  bottom: 0px !important;
+  .q-router-link--exact-active {
+    color: $green-12 !important;
+  }
+}
+
+
+.text-strikethrough {
+  text-decoration: line-through;
+}
