@@ -21,3 +21,14 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 # quasar-todo-app
+
+### ADD YOUR FIREBASE CONFIG OBJECT to the firebase.js under /boot folder 
+var firebaseConfig = {
+  apiKey: "YOURAPIKEY",
+  authDomain: "YOURAUTHDOMAIN",
+  databaseURL: "YOURDATABASEURL",
+  projectId: "YOURPROJECTID",
+  storageBucket: "YOURSTORAGEBUCKET",
+  messagingSenderId: "YOURMESSAGINGSENDERID",
+  appId: "YOURAPPID"
+}
