@@ -118,7 +118,8 @@ module.exports = function (ctx) {
 
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
       extendWebpack(cfg) {
-      }
+      },
+      distDir: ctx.mode.spa ? 'public' : null,
     },
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer

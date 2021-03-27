@@ -7,7 +7,9 @@
   "author": "Zaur <zaur_aliev@hotmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "deploy": "vercel"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
