@@ -32,7 +32,17 @@
 
     <q-list bordered padding>
       <q-item-label header class="text-weight-bold">More</q-item-label>
-
+      <q-item
+        to="/settings/about"
+        tag="label"
+        v-ripple>
+        <q-item-section>
+          <q-item-label>About</q-item-label>
+        </q-item-section>
+        <q-item-section side >
+          <q-icon name="chevron_right" />
+        </q-item-section>
+      </q-item>
       <q-item
         to="/settings/help"
         tag="label"
