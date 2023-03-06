@@ -19,7 +19,7 @@
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^1.9.6",
+    "@quasar/app": "^2.4.3",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.0",
     "tar": ">=4.4.18"
