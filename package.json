@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@quasar/app": "^1.9.6",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.0",
     "tar": ">=4.4.18"
   },
